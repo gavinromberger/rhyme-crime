@@ -1,0 +1,200 @@
+{
+  "france-rt1": [
+    "M-13"
+  ],
+  "france-rt2": [
+    "F-29",
+    "F-11"
+  ],
+  "united-kingdom-rt1": [
+    "M-7"
+  ],
+  "united-kingdom-rt2": [
+    "M-1",
+    "F-1"
+  ],
+  "italy-rt1": [
+    "M-21"
+  ],
+  "italy-rt2": [
+    "M-23",
+    "F-14"
+  ],
+  "egypt-rt1": [
+    "M-26"
+  ],
+  "egypt-rt2": [
+    "M-27",
+    "F-10"
+  ],
+  "greece-rt1": [
+    "M-16"
+  ],
+  "china-rt1": [
+    "M-4"
+  ],
+  "china-rt2": [
+    "M-29",
+    "F-14"
+  ],
+  "japan-rt1": [
+    "M-25"
+  ],
+  "japan-rt2": [
+    "M-16",
+    "F-8"
+  ],
+  "usa-rt1": [
+    "M-13"
+  ],
+  "usa-rt2": [
+    "M-12",
+    "F-10"
+  ],
+  "spain-rt1": [
+    "M-21"
+  ],
+  "russia-rt1": [
+    "F-29"
+  ],
+  "russia-rt2": [
+    "F-15",
+    "F-26"
+  ],
+  "india-rt1": [
+    "F-1"
+  ],
+  "india-rt2": [
+    "F-24",
+    "F-29"
+  ],
+  "turkey-rt1": [
+    "M-1"
+  ],
+  "turkey-rt2": [
+    "M-18",
+    "F-2"
+  ],
+  "mexico-rt1": [
+    "M-29"
+  ],
+  "mexico-rt2": [
+    "F-11",
+    "F-19"
+  ],
+  "peru-rt1": [
+    "M-4"
+  ],
+  "peru-rt2": [
+    "M-18",
+    "F-24"
+  ],
+  "brazil-rt1": [
+    "M-25"
+  ],
+  "brazil-rt2": [
+    "F-15",
+    "F-29"
+  ],
+  "australia-rt1": [
+    "M-17"
+  ],
+  "australia-rt2": [
+    "M-4",
+    "M-12"
+  ],
+  "germany-rt1": [
+    "F-24"
+  ],
+  "germany-rt2": [
+    "F-29",
+    "F-8"
+  ],
+  "netherlands-rt1": [
+    "F-26"
+  ],
+  "netherlands-rt2": [
+    "F-24",
+    "F-19"
+  ],
+  "ireland-rt1": [
+    "M-1"
+  ],
+  "ireland-rt2": [
+    "F-1",
+    "F-8"
+  ],
+  "norway-rt1": [
+    "F-8"
+  ],
+  "norway-rt2": [
+    "F-15",
+    "F-29"
+  ],
+  "sweden-rt1": [
+    "M-21"
+  ],
+  "sweden-rt2": [
+    "M-25",
+    "F-11"
+  ],
+  "portugal-rt1": [
+    "M-12"
+  ],
+  "switzerland-rt1": [
+    "F-2"
+  ],
+  "switzerland-rt2": [
+    "F-15",
+    "F-24"
+  ],
+  "argentina-rt1": [
+    "M-25"
+  ],
+  "argentina-rt2": [
+    "F-2",
+    "F-24"
+  ],
+  "south-korea-rt1": [
+    "M-16"
+  ],
+  "south-korea-rt2": [
+    "M-4",
+    "F-2"
+  ],
+  "saudi-arabia-rt1": [
+    "M-2"
+  ],
+  "saudi-arabia-rt2": [
+    "M-22",
+    "F-3"
+  ],
+  "ethiopia-rt1": [
+    "M-3"
+  ],
+  "ethiopia-rt2": [
+    "M-16",
+    "F-2"
+  ],
+  "israel-rt1": [
+    "M-12"
+  ],
+  "israel-rt2": [
+    "F-11",
+    "F-15"
+  ],
+  "colombia-rt1": [
+    "M-1"
+  ],
+  "colombia-rt2": [
+    "F-24",
+    "F-2"
+  ],
+  "nigeria-rt1": [
+    "M-18"
+  ],
+  "nigeria-rt2": [
+    "M-29",
+    "F-26"
+  ]
+}

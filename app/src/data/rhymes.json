@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A rude female monarch",
+    "word1": "mean",
+    "word2": "queen"
+  },
+  {
+    "id": 2,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An unhappy father",
+    "word1": "sad",
+    "word2": "dad"
+  },
+  {
+    "id": 3,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A large hog",
+    "word1": "big",
+    "word2": "pig"
+  },
+  {
+    "id": 4,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A chubby feline",
+    "word1": "fat",
+    "word2": "cat"
+  },
+  {
+    "id": 6,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A whimsical subterranean mammal",
+    "word1": "droll",
+    "word2": "mole"
+  },
+  {
+    "id": 7,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A soggy doggy",
+    "word1": "wet",
+    "word2": "pet"
+  },
+  {
+    "id": 8,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A cowardly insect",
+    "word1": "fly",
+    "word2": "guy"
+  },
+  {
+    "id": 10,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A luminous gleam",
+    "word1": "bright",
+    "word2": "light"
+  },
+  {
+    "id": 12,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A freezing puddle",
+    "word1": "cool",
+    "word2": "pool"
+  },
+  {
+    "id": 13,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A grumpy supervisor",
+    "word1": "cross",
+    "word2": "boss"
+  },
+  {
+    "id": 16,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A tiny move forward",
+    "word1": "small",
+    "word2": "crawl"
+  },
+  {
+    "id": 17,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A noisy group of people",
+    "word1": "loud",
+    "word2": "crowd"
+  },
+  {
+    "id": 18,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A bashful man",
+    "word1": "shy",
+    "word2": "guy"
+  },
+  {
+    "id": 21,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A clever dude",
+    "word1": "sly",
+    "word2": "guy"
+  },
+  {
+    "id": 22,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A thankful father",
+    "word1": "glad",
+    "word2": "dad"
+  },
+  {
+    "id": 23,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A frosty hunk of precious metal",
+    "word1": "cold",
+    "word2": "gold"
+  },
+  {
+    "id": 25,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A circular hill",
+    "word1": "round",
+    "word2": "mound"
+  },
+  {
+    "id": 26,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Presumptuous fungus",
+    "word1": "bold",
+    "word2": "mold"
+  },
+  {
+    "id": 27,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A dark footprint",
+    "word1": "black",
+    "word2": "track"
+  },
+  {
+    "id": 29,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A mean spirited quadruped",
+    "word1": "cruel",
+    "word2": "mule"
+  },
+  {
+    "id": 1,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A picture of a hot bread-making device",
+    "word1": "toaster",
+    "word2": "poster"
+  },
+  {
+    "id": 2,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "An amusing hare",
+    "word1": "funny",
+    "word2": "bunny"
+  },
+  {
+    "id": 3,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A sluggish flower",
+    "word1": "lazy",
+    "word2": "daisy"
+  },
+  {
+    "id": 5,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A craven string instrument",
+    "word1": "yellow",
+    "word2": "cello"
+  },
+  {
+    "id": 8,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A bee trip",
+    "word1": "bumble",
+    "word2": "stumble"
+  },
+  {
+    "id": 10,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "Sparkly trash",
+    "word1": "glitter",
+    "word2": "litter"
+  },
+  {
+    "id": 11,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A silent yet violent protest",
+    "word1": "quiet",
+    "word2": "riot"
+  },
+  {
+    "id": 14,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A furry magical forest creature",
+    "word1": "hairy",
+    "word2": "fairy"
+  },
+  {
+    "id": 15,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A timid act of kindness",
+    "word1": "nervous",
+    "word2": "service"
+  },
+  {
+    "id": 19,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A smelly little finger",
+    "word1": "stinky",
+    "word2": "pinky"
+  },
+  {
+    "id": 24,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A very small winter hat",
+    "word1": "teeny",
+    "word2": "beanie"
+  },
+  {
+    "id": 26,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A wet pet",
+    "word1": "soggy",
+    "word2": "doggy"
+  },
+  {
+    "id": 29,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A pathetic cut of chicken",
+    "word1": "slender",
+    "word2": "tender"
+  },
+  {
+    "id": 13,
+    "syllables": 4,
+    "difficulty": "most-wanted",
+    "riddle": "A loveable henchman",
+    "word1": "adorable",
+    "word2": "deplorable"
+  }
+]
