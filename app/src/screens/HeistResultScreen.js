@@ -146,12 +146,12 @@ export default function HeistResultScreen({ route, navigation }) {
 
   const failureMessage =
     failureReason === 'timer'
-      ? 'Time expired. The Kid called the abort.'
+      ? 'Time expired. The heist is blown.'
       : failureReason === 'guesses'
         ? 'All guesses exhausted. The lock held.'
         : failureReason === 'egress'
           ? 'Failed to solve the exit lock. Could not escape with the loot.'
-          : 'Heist aborted on your order.';
+          : 'You called the abort. The crew pulled out.';
 
   const hasMoodChanges = grievanceChanges.length > 0 || moodImprovements.length > 0;
   const isMultiLock = totalLocks > 1;

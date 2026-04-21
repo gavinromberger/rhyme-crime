@@ -160,6 +160,102 @@
     "word2": "mule"
   },
   {
+    "id": 31,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A cardiologist’s graph",
+    "word1": "heart",
+    "word2": "chart"
+  },
+  {
+    "id": 32,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A fictional cobra",
+    "word1": "fake",
+    "word2": "snake"
+  },
+  {
+    "id": 33,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Freezing precious metal",
+    "word1": "cold",
+    "word2": "gold"
+  },
+  {
+    "id": 34,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A slender sewing device",
+    "word1": "thin",
+    "word2": "pin"
+  },
+  {
+    "id": 35,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A too oft repeated story",
+    "word1": "stale",
+    "word2": "tale"
+  },
+  {
+    "id": 36,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A black recreation area",
+    "word1": "dark",
+    "word2": "park"
+  },
+  {
+    "id": 37,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An uncovered recliner",
+    "word1": "bare",
+    "word2": "chair"
+  },
+  {
+    "id": 38,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Outlandish facial hair",
+    "word1": "weird",
+    "word2": "beard"
+  },
+  {
+    "id": 39,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A boiling saucepan",
+    "word1": "hot",
+    "word2": "pot"
+  },
+  {
+    "id": 40,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A blunt cranium",
+    "word1": "dull",
+    "word2": "skull"
+  },
+  {
+    "id": 41,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An impolite guy",
+    "word1": "rude",
+    "word2": "dude"
+  },
+  {
+    "id": 42,
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A pointed triangular string instrument",
+    "word1": "sharp",
+    "word2": "harp"
+  },
+  {
     "id": 1,
     "syllables": 2,
     "difficulty": "felony",
@@ -262,6 +358,14 @@
     "riddle": "A pathetic cut of chicken",
     "word1": "slender",
     "word2": "tender"
+  },
+  {
+    "id": 31,
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A tattletale’s pants",
+    "word1": "snitches",
+    "word2": "britches"
   },
   {
     "id": 13,

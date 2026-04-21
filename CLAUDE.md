@@ -40,24 +40,22 @@ It is displayed prominently on the case file before the player attempts the lock
 
 ### Difficulty Tiers
 
-| Tier | Syllables | Lock Type | What You're Stealing |
+| Tier | Syllables
 |---|---|---|---|
-| Misdemeanor | 1 syllable each | Basic padlock | Small valuables |
-| Felony | 2 syllables each | Vault door | Priceless artifacts |
-| Most Wanted | 3 syllables each | Rhyme Fortress | Legendary treasures |
+| Misdemeanor | 1 syllable each 
+| Felony | 2 syllables each 
+| Most Wanted | 3 syllables each 
+| Public Enemy  No. 1 | 4 syllables each 
 
 ---
 
 ## Game Structure
 
-### Level Select — The World Map
+### Level Select — Heist List
 
-A vintage illustrated world map.
-Heist locations are pinned across the globe, escalating in prestige and difficulty as the player progresses.
-Completed heists show gold pins.
-The active target shows a pulsing red pin with an animated flight path connecting it to the last completed location.
+A simple list of heists, escalating in prestige and difficulty as the player progresses.
 
-Each location has a heist list below the map showing:
+Each entry shows:
 - Target item and location
 - Difficulty tier badge
 - Completion status (DONE stamp for completed heists)
@@ -67,26 +65,57 @@ Each location has a heist list below the map showing:
 A trophy room showing all acquired treasures on illuminated display pedestals.
 Completed heists place the stolen item visibly in the vault.
 Locked future items show silhouettes with question marks, creating intrigue.
-A net worth bar tracks cumulative value stolen.
 
-The vault also shows a **Criminal Record** breakdown — how many Misdemeanors, Felonies, and Most Wanted heists have been completed.
+The vault also shows a **Criminal Record** breakdown — how many Misdemeanors, Felonies, Most Wanted, and Public Enemy No.1 heists have been completed.
 
 ### Gameplay Screen
 
-Each level presents:
-1. **Case file** with riddle text and syllable count
-2. **A single text input** — the player types both words separated by a space (e.g. `toaster poster`). The adjective and noun are parsed at the first space character.
-3. A **"Crack It"** button to submit — disabled until the field contains at least one space with text on both sides
-4. **Wrong guesses log** showing previous incorrect attempts as strikethrough pills
-5. **Crew strip** — fixed at the bottom of the screen above the keyboard, always visible
-6. **Custom in-app keyboard** — replaces the iOS system keyboard entirely. Letters A–Z, SPACE, and backspace. The Extortionist's eliminated letters appear greyed out with strikethrough and are disabled.
-7. **Egress riddle** — appears after all locks are solved if The Courier was not selected. Single-word input (no space), 15-second countdown. One answer word is pre-revealed; player supplies the other. Failure ends the heist.
+Layout top to bottom:
+
+**1. Top bar**
+City name, location subtitle, and three buttons: UNLOCK (dev tool), PAUSE/RESUME, ABORT.
+
+**2. Timer strip**
+TIME label + MM:SS digital display + colour-coded progress bar (green >60%, gold 33–60%, red <33%).
+When the Distractor is active, a cyan crew portrait + countdown appears to the right.
+When the Handler is absent, the strip pulses and the time display freezes, updating only at quarter-minute marks and the final 3 seconds.
+
+**3. Scrollable content area**
+
+- **Lock cards** — one per lock.
+  Each card has a header (lock number badge, "LOCK N — DIFFICULTY" title) always visible.
+  The body expands only for the active lock and shows: riddle text, gold syllable dots + "N SYLLABLES EACH", a guess badge, the text input, and the CRACK IT button.
+  Solved locks collapse and show the answer in green. Active lock colours match the difficulty tier. Inactive unsolved locks are muted grey.
+
+- **Egress riddle card** — appears only when all locks are solved and the Courier is absent.
+  Shows the riddle, one pre-revealed word (green pill), one player-input word (gold pill), an ESCAPE button, and a 1-minute countdown in the header.
+
+- **Wrong guesses** — labelled "PREVIOUS ATTEMPTS", horizontal wrap of red strikethrough pills. Hidden until the first wrong guess.
+
+- **Intel** — labelled "INTEL", list of hint messages each with crew portrait. Hidden until a hint is generated.
+
+**4. Crew strip**
+Fixed row above the keyboard. One card per selected crew member showing portrait, name, ThermometerBar, mood label, and ability action area (gold button / ACTIVE / EXPENDED / COVER BLOWN / status label).
+
+**5. Custom keyboard**
+Fixed at bottom. A–Z + SPACE + ⌫. Extortionist's eliminated keys shown with red tint and strikethrough. Extractor's highlighted keys shown with green tint. SPACE is disabled during the egress phase.
 
 ---
 
 ## The Timer
 
-Each level is timed. The timer's visibility depends entirely on The Handler's availability.
+Each lock has its own time allocation based on syllable count:
+
+| Syllables | Time |
+|---|---|
+| 1 (Misdemeanor) | 1 minute |
+| 2 (Felony) | 2 minutes |
+| 3 (Most Wanted) | 3 minutes |
+| 4 (Public Enemy) | 4 minutes |
+
+When a lock is cracked, the next lock's full time is added to whatever time remains.
+
+The timer's visibility depends entirely on The Handler's availability.
 
 - **Handler available:** Timer always visible, countdown shown in full
 - **Handler unavailable:** Timer flashes briefly at :45, :30, :15, and :00 on each minute.
@@ -109,8 +138,11 @@ The heist fails only when the crew is entirely wiped — this is the terminal fa
 Selecting more crew gives more total guesses.
 Displayed on the Heist Briefing screen with a colour-coded badge (red when at the floor, gold when low, green when comfortable).
 
-**"The Kid"** is not a crew member.
-The name appears only in the timer-expiry failure message as flavour: *"Time expired. The Kid called the abort."*
+Failure messages by reason:
+- **Timer:** *"Time expired. The heist is blown."*
+- **Guesses:** *"All guesses exhausted. The lock held."*
+- **Egress:** *"Failed to solve the exit lock. Could not escape with the loot."*
+- **Abort:** *"You called the abort. The crew pulled out."*
 
 ---
 
@@ -210,7 +242,7 @@ The contacts always hand it over.
 ### The Distractor 💃
 **ID:** `distractor` | **Ability label:** Freeze Clock
 
-**Ability:** Freezes the main timer for 15–25 seconds (random per use).
+**Ability:** Freezes the main timer for 2–3 minutes (random per use).
 A cyan distraction countdown appears to the right of the frozen main timer.
 When it hits zero, the main clock resumes.
 
@@ -267,7 +299,7 @@ Without him on the line, all you get are flickers.
 **When present:** Egress is handled automatically after all locks are cracked. The heist completes normally.
 
 **When absent:** After all locks are solved, an **Egress Riddle** appears — a full hink pink with one word pre-revealed.
-The player must supply the rhyming partner within **15 seconds**.
+The player must supply the rhyming partner within **1 minute**.
 Failure ends the heist even though all locks were cracked.
 
 **Bio:** He doesn't crack locks. He moves things.
@@ -313,7 +345,7 @@ Their ability now costs more heists of absence when used.
 **Example grievance messages:**
 - *"The Extractor wants a bigger cut after last time. His fee just went up. Absence is now 5 heists."*
 - *"The Extortionist has been talking. She wants double or she walks."*
-- *"The Kid has been googling 'workers rights for criminals.' He wants paid time off. You're considering it."*
+- *"The Distractor has been sending invoices. She wants double or she walks."*
 
 ---
 
@@ -407,7 +439,7 @@ Collectors and perfectionists will obsess over completing their vault with all g
    - Lock cards — one per lock; collapsed/green when solved, expanded with riddle + input when active
    - Single text input — `adjective noun` placeholder, custom keyboard only (`showSoftInputOnFocus={false}`)
    - Crack It button — gold, full width
-   - Egress riddle card — appears after all locks solved when Courier absent; shows pre-revealed word + live answer pill + ESCAPE button + 15s countdown
+   - Egress riddle card — appears after all locks solved when Courier absent; shows pre-revealed word + live answer pill + ESCAPE button + 1-minute countdown
    - Wrong guesses — horizontal wrapping pills with strikethrough
    - Intel — crew hint messages with portrait icon
 4. **Crew strip** — fixed row outside ScrollView, always above keyboard; one portrait card per selected crew member showing: portrait, short name, compact ThermometerBar (incidents), mood label, and an action area.
@@ -426,7 +458,7 @@ After a heist ends, the gameplay screen presents a sequence of full-screen resul
 Each page shows an OK button that advances to the next step.
 
 **Step 1 — Outcome**
-Shows heist image, HEIST COMPLETE / HEIST FAILED title, lock answers (on success) or failure reason (on failure), and performance rating (Ghost, Professional, etc.).
+Shows heist image, HEIST COMPLETE / HEIST FAILED title, lock answers (on success) or failure message (on failure), and performance rating (Ghost, Professional, etc.).
 Content is vertically centred.
 
 **Step 2 — XP & Criminal Record** *(success only)*

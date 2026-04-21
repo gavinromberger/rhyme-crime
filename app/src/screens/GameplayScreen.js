@@ -31,10 +31,7 @@ import HeistImage from '../components/HeistImage';
 import ThermometerBar from '../components/ThermometerBar';
 
 function getLevelDuration(syllables) {
-  if (syllables === 1) return 30;
-  if (syllables === 2) return 60;
-  if (syllables === 3) return 90;
-  return 120;
+  return syllables * 60; // 1 min per syllable (1→60s, 2→120s, 3→180s, 4→240s)
 }
 
 const EGRESS_RIDDLES = [
@@ -247,7 +244,7 @@ export default function GameplayScreen({ route, navigation }) {
   // Egress riddle phase — appears after all locks solved when Courier is absent
   const [egressPhase, setEgressPhase] = useState(false);
   const [egressIntroVisible, setEgressIntroVisible] = useState(false);
-  const [egressTimeLeft, setEgressTimeLeft] = useState(15);
+  const [egressTimeLeft, setEgressTimeLeft] = useState(60);
   const [egressAnswer, setEgressAnswer] = useState('');
   const egressRiddleRef = useRef(null);
 
@@ -706,7 +703,7 @@ export default function GameplayScreen({ route, navigation }) {
           "She's arguing with security about a parking ticket that doesn't exist.",
           "A birthday flash mob has broken out in the atrium. She organised it this morning. Nobody knows why.",
         ];
-        const extraSeconds = Math.floor(Math.random() * 11) + 15; // 15–25
+        const extraSeconds = Math.floor(Math.random() * 61) + 120; // 2–3 minutes
         message = distractionMessages[Math.floor(Math.random() * distractionMessages.length)];
         setDistractionModal({ message, extraSeconds, countdown: 5 });
         break;
@@ -1175,12 +1172,12 @@ export default function GameplayScreen({ route, navigation }) {
                 <Text style={[styles.outcomeTitle, { color: COLORS.redThreat, marginTop: 24 }]}>HEIST FAILED</Text>
                 <Text style={styles.outcomeMessage}>
                   {pendingResultRef.current?.result?.failureReason === 'timer'
-                    ? 'Time expired. The Kid called the abort.'
+                    ? 'Time expired. The heist is blown.'
                     : pendingResultRef.current?.result?.failureReason === 'guesses'
                       ? 'All guesses exhausted. The lock held.'
                       : pendingResultRef.current?.result?.failureReason === 'egress'
                         ? 'Failed to solve the exit lock. Could not escape with the loot.'
-                        : 'Heist aborted on your order.'}
+                        : 'You called the abort. The crew pulled out.'}
                 </Text>
                 <Text style={styles.resultFailureSecurityLine}>
                   Security detected your presence and changed the locks.

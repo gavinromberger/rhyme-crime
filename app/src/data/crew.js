@@ -60,7 +60,7 @@ export const CREW = [
     emoji: '💃',
     abilityLabel: 'Freeze Clock',
     abilityDescription: 'Freezes the main timer',
-    abilitySubtitle: '15–25 seconds',
+    abilitySubtitle: '2–3 minutes',
     bio: "Where the rest of the crew operates through precision or subtlety, she operates through sheer force of personality — equal parts charm and chaos. She has started arguments, pulled fire alarms, impersonated health inspectors, and once drove a moped through a revolving door as a deliberate tactical decision. She always gets away with it. Nobody has ever worked out how.",
     abilityJustification: "She works from outside — whatever the building needs to deal with, she provides it. Fire alarms, domestic disturbances, suspicious packages, flash mobs organised that morning. While the building scrambles to deal with her, the clock stops. How long depends on how far she decides to take it. She doesn't plan it in advance. She reads the situation and acts. It somehow always works.",
     available: true,
