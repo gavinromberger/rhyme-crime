@@ -414,8 +414,8 @@ export function GameStateProvider({ children }) {
     heistRhymeAssignmentsRef.current = {};
   }
 
-  function recordHeistCompletion(levelId, xpGained, performance) {
-    setCompletedHeists(prev => ({ ...prev, [levelId]: { xpGained, performance } }));
+  function recordHeistCompletion(levelId, xpGained, performance, locks) {
+    setCompletedHeists(prev => ({ ...prev, [levelId]: { xpGained, performance, locks: locks ?? [] } }));
     setTotalXp(prev => prev + xpGained);
     setPartialHeists(prev => {
       const next = { ...prev };

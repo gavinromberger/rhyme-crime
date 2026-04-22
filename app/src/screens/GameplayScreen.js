@@ -247,6 +247,7 @@ export default function GameplayScreen({ route, navigation }) {
   const [egressTimeLeft, setEgressTimeLeft] = useState(60);
   const [egressAnswer, setEgressAnswer] = useState('');
   const egressRiddleRef = useRef(null);
+  const egressAnswerRef = useRef(null);
 
   const isDone = status === 'done';
   const isAdvancing = status === 'advancing';
@@ -360,6 +361,13 @@ export default function GameplayScreen({ route, navigation }) {
     return () => clearTimeout(t);
   }, [currentLockIndex, status]);
 
+  // ── Auto-focus egress answer field (enables hardware keyboard in simulator) ─
+  useEffect(() => {
+    if (!egressPhase || egressIntroVisible) return;
+    const t = setTimeout(() => egressAnswerRef.current?.focus(), 150);
+    return () => clearTimeout(t);
+  }, [egressPhase, egressIntroVisible]);
+
   // ── Guess badge pulse ──────────────────────────────────────────────────────
   useEffect(() => {
     if (wrongGuesses.length === 0) return;
@@ -380,13 +388,15 @@ export default function GameplayScreen({ route, navigation }) {
     });
 
   const buildMoodImprovements = (presentIds) =>
-    presentIds.map(id => {
-      const member = crew.find(m => m.id === id);
-      const fromMood = getMood(member.incidents);
-      const toIncidents = getPrevLevelStart(member.incidents);
-      const toMood = getMood(toIncidents);
-      return { id, name: member.name, emoji: member.emoji, fromMood, toMood, fromIncidents: member.incidents, toIncidents };
-    });
+    presentIds
+      .map(id => {
+        const member = crew.find(m => m.id === id);
+        const fromMood = getMood(member.incidents);
+        const toIncidents = getPrevLevelStart(member.incidents);
+        const toMood = getMood(toIncidents);
+        return { id, name: member.name, emoji: member.emoji, fromMood, toMood, fromIncidents: member.incidents, toIncidents };
+      })
+      .filter(m => m.toIncidents !== m.fromIncidents);
 
   // ── Failure ────────────────────────────────────────────────────────────────
   const handleFailure = (reason, finalWrongGuesses) => {
@@ -443,7 +453,7 @@ export default function GameplayScreen({ route, navigation }) {
     };
 
     clearRhymeAssignment(level.id);
-    pendingResultRef.current = resultParams;
+    pendingResultRef.current = { ...resultParams, activeLocks };
     setResultStep(1);
   };
 
@@ -497,7 +507,7 @@ export default function GameplayScreen({ route, navigation }) {
         };
         setEgressPhase(true);
         setEgressIntroVisible(true);
-        setEgressTimeLeft(15);
+        setEgressTimeLeft(60);
         setEgressAnswer('');
         setEliminatedKeys(new Set());
         setHighlightedKeys(new Set());
@@ -550,7 +560,7 @@ export default function GameplayScreen({ route, navigation }) {
     applyVacation(vacationIds);
     applyLayingLow(layingLowIds);
     recordSuccess(finalPresentIds);
-    recordHeistCompletion(level.id, xpGained, performance);
+    recordHeistCompletion(level.id, xpGained, performance, activeLocks);
     recordCrewHeistStats(selectedCrewIds, [...abilityUsedIds], true, level.id);
 
     const awolUpdates = awolBefore.map(m => ({ id: m.id, name: m.name, emoji: m.emoji, after: m.before - 1 }));
@@ -567,6 +577,7 @@ export default function GameplayScreen({ route, navigation }) {
 
     pendingResultRef.current = {
       level,
+      activeLocks,
       result: {
         status: 'success',
         failureReason: null,
@@ -786,11 +797,26 @@ export default function GameplayScreen({ route, navigation }) {
       setResultStep(hasDebrief(result) ? 3 : 4);
     }
   };
+  const goToStep4OrEnd = (result) => {
+    const gc = result?.grievanceChanges ?? [];
+    const mi = result?.moodImprovements ?? [];
+    const hasMood = gc.length > 0 || mi.length > 0;
+    if (!hasMood && result?.status === 'success') {
+      navigation.navigate('Map');
+    } else {
+      setResultStep(4);
+    }
+  };
+
   const handleStep2Ok = () => {
     const result = pendingResultRef.current?.result;
-    setResultStep(hasDebrief(result) ? 3 : 4);
+    if (hasDebrief(result)) {
+      setResultStep(3);
+    } else {
+      goToStep4OrEnd(result);
+    }
   };
-  const handleStep3Ok = () => setResultStep(4);
+  const handleStep3Ok = () => goToStep4OrEnd(pendingResultRef.current?.result);
 
   // ── Derived values ─────────────────────────────────────────────────────────
   const totalDuration = getLevelDuration(currentLock.syllables);
@@ -980,6 +1006,17 @@ export default function GameplayScreen({ route, navigation }) {
                 </Text>
               </View>
               <View style={styles.lockCardBody}>
+                {/* Hidden TextInput keeps focus so hardware keyboard works in simulator */}
+                <TextInput
+                  ref={egressAnswerRef}
+                  style={styles.egressHiddenInput}
+                  value={egressAnswer}
+                  onChangeText={setEgressAnswer}
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                  editable={!isDone}
+                  showSoftInputOnFocus={false}
+                />
                 <Text style={styles.riddle}>{egressRiddleRef.current.riddle}</Text>
                 <View style={styles.egressWordRow}>
                   {egressRiddleRef.current.revealedIndex === 0 ? (
@@ -1136,9 +1173,9 @@ export default function GameplayScreen({ route, navigation }) {
                   <HeistImage target={level.target} style={{ width: '100%', height: 200 }} />
                 </View>
                 <Text style={[styles.outcomeTitle, { color: COLORS.gold, marginTop: 24 }]}>HEIST COMPLETE</Text>
-                {activeLocks.map((lock, i) => (
+                {(pendingResultRef.current?.activeLocks ?? activeLocks).map((lock, i) => (
                   <View key={i} style={styles.resultLockAnswerRow}>
-                    {activeLocks.length > 1 && (
+                    {(pendingResultRef.current?.activeLocks ?? activeLocks).length > 1 && (
                       <Text style={[styles.resultLockAnswerLabel, { color: DIFFICULTY_COLORS[lock.difficulty] }]}>
                         LOCK {i + 1}
                       </Text>
@@ -1250,10 +1287,11 @@ export default function GameplayScreen({ route, navigation }) {
               });
               const locksWithWrongGuesses = Object.keys(wgByLock).map(Number).sort((a, b) => a - b);
 
+              const snapshotLocks = pendingResultRef.current?.activeLocks ?? activeLocks;
               return (
                 <View style={styles.resultDebriefList}>
                   {locksWithWrongGuesses.map(lockIdx => {
-                    const lock = activeLocks[lockIdx];
+                    const lock = snapshotLocks[lockIdx];
                     const guesses = wgByLock[lockIdx];
                     return (
                       <View key={`lock-${lockIdx}`} style={styles.resultDebriefGroup}>
@@ -1813,6 +1851,12 @@ const styles = StyleSheet.create({
   },
 
   // ── Egress riddle card ────────────────────────────────────────────────────
+  egressHiddenInput: {
+    position: 'absolute',
+    opacity: 0,
+    width: 1,
+    height: 1,
+  },
   egressCard: {
     borderColor: COLORS.gold,
     backgroundColor: COLORS.gold + '0A',

@@ -1,214 +1,6 @@
 [
   {
-    "id": 1,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A rude female monarch",
-    "word1": "mean",
-    "word2": "queen"
-  },
-  {
-    "id": 2,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "An unhappy father",
-    "word1": "sad",
-    "word2": "dad"
-  },
-  {
-    "id": 3,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A large hog",
-    "word1": "big",
-    "word2": "pig"
-  },
-  {
-    "id": 4,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A chubby feline",
-    "word1": "fat",
-    "word2": "cat"
-  },
-  {
-    "id": 6,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A whimsical subterranean mammal",
-    "word1": "droll",
-    "word2": "mole"
-  },
-  {
-    "id": 7,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A soggy doggy",
-    "word1": "wet",
-    "word2": "pet"
-  },
-  {
-    "id": 8,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A cowardly insect",
-    "word1": "fly",
-    "word2": "guy"
-  },
-  {
-    "id": 10,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A luminous gleam",
-    "word1": "bright",
-    "word2": "light"
-  },
-  {
-    "id": 12,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A freezing puddle",
-    "word1": "cool",
-    "word2": "pool"
-  },
-  {
-    "id": 13,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A grumpy supervisor",
-    "word1": "cross",
-    "word2": "boss"
-  },
-  {
-    "id": 16,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A tiny move forward",
-    "word1": "small",
-    "word2": "crawl"
-  },
-  {
-    "id": 17,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A noisy group of people",
-    "word1": "loud",
-    "word2": "crowd"
-  },
-  {
-    "id": 18,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A bashful man",
-    "word1": "shy",
-    "word2": "guy"
-  },
-  {
-    "id": 21,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A clever dude",
-    "word1": "sly",
-    "word2": "guy"
-  },
-  {
-    "id": 22,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A thankful father",
-    "word1": "glad",
-    "word2": "dad"
-  },
-  {
-    "id": 23,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A frosty hunk of precious metal",
-    "word1": "cold",
-    "word2": "gold"
-  },
-  {
-    "id": 25,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A circular hill",
-    "word1": "round",
-    "word2": "mound"
-  },
-  {
-    "id": 26,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "Presumptuous fungus",
-    "word1": "bold",
-    "word2": "mold"
-  },
-  {
-    "id": 27,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A dark footprint",
-    "word1": "black",
-    "word2": "track"
-  },
-  {
-    "id": 29,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A mean spirited quadruped",
-    "word1": "cruel",
-    "word2": "mule"
-  },
-  {
-    "id": 31,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A cardiologist’s graph",
-    "word1": "heart",
-    "word2": "chart"
-  },
-  {
-    "id": 32,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A fictional cobra",
-    "word1": "fake",
-    "word2": "snake"
-  },
-  {
-    "id": 33,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "Freezing precious metal",
-    "word1": "cold",
-    "word2": "gold"
-  },
-  {
-    "id": 34,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A slender sewing device",
-    "word1": "thin",
-    "word2": "pin"
-  },
-  {
-    "id": 35,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A too oft repeated story",
-    "word1": "stale",
-    "word2": "tale"
-  },
-  {
-    "id": 36,
-    "syllables": 1,
-    "difficulty": "misdemeanor",
-    "riddle": "A black recreation area",
-    "word1": "dark",
-    "word2": "park"
-  },
-  {
-    "id": 37,
+    "id": "bare-chair",
     "syllables": 1,
     "difficulty": "misdemeanor",
     "riddle": "An uncovered recliner",
@@ -216,23 +8,143 @@
     "word2": "chair"
   },
   {
-    "id": 38,
+    "id": "barred-bard",
     "syllables": 1,
     "difficulty": "misdemeanor",
-    "riddle": "Outlandish facial hair",
-    "word1": "weird",
-    "word2": "beard"
+    "riddle": "A blocked minstrel",
+    "word1": "barred",
+    "word2": "bard"
   },
   {
-    "id": 39,
+    "id": "bent-tent",
     "syllables": 1,
     "difficulty": "misdemeanor",
-    "riddle": "A boiling saucepan",
-    "word1": "hot",
-    "word2": "pot"
+    "riddle": "A contorted tepee",
+    "word1": "bent",
+    "word2": "tent"
   },
   {
-    "id": 40,
+    "id": "big-pig",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A large hog",
+    "word1": "big",
+    "word2": "pig"
+  },
+  {
+    "id": "black-track",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A dark footprint",
+    "word1": "black",
+    "word2": "track"
+  },
+  {
+    "id": "blue-clue",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An azure hint",
+    "word1": "blue",
+    "word2": "clue"
+  },
+  {
+    "id": "bold-mold",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Presumptuous fungus",
+    "word1": "bold",
+    "word2": "mold"
+  },
+  {
+    "id": "brave-wave",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A courageous hand signal",
+    "word1": "brave",
+    "word2": "wave"
+  },
+  {
+    "id": "bright-light",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A luminous gleam",
+    "word1": "bright",
+    "word2": "light"
+  },
+  {
+    "id": "clean-bean",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A pure legume",
+    "word1": "clean",
+    "word2": "bean"
+  },
+  {
+    "id": "cold-fold",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A chilly crease",
+    "word1": "cold",
+    "word2": "fold"
+  },
+  {
+    "id": "cold-gold",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A frosty hunk of precious metal",
+    "word1": "cold",
+    "word2": "gold"
+  },
+  {
+    "id": "cool-pool",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A freezing puddle",
+    "word1": "cool",
+    "word2": "pool"
+  },
+  {
+    "id": "cross-boss",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A grumpy supervisor",
+    "word1": "cross",
+    "word2": "boss"
+  },
+  {
+    "id": "cruel-mule",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A mean spirited quadruped",
+    "word1": "cruel",
+    "word2": "mule"
+  },
+  {
+    "id": "dark-park",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A black recreation area",
+    "word1": "dark",
+    "word2": "park"
+  },
+  {
+    "id": "deep-sleep",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Profound rest",
+    "word1": "deep",
+    "word2": "sleep"
+  },
+  {
+    "id": "droll-mole",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A whimsical subterranean mammal",
+    "word1": "droll",
+    "word2": "mole"
+  },
+  {
+    "id": "dull-skull",
     "syllables": 1,
     "difficulty": "misdemeanor",
     "riddle": "A blunt cranium",
@@ -240,7 +152,167 @@
     "word2": "skull"
   },
   {
-    "id": 41,
+    "id": "fake-lake",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A false pond",
+    "word1": "fake",
+    "word2": "lake"
+  },
+  {
+    "id": "fake-snake",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A fictional cobra",
+    "word1": "fake",
+    "word2": "snake"
+  },
+  {
+    "id": "fat-cat",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A chubby feline",
+    "word1": "fat",
+    "word2": "cat"
+  },
+  {
+    "id": "flat-rat",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A squashed mouse",
+    "word1": "flat",
+    "word2": "rat"
+  },
+  {
+    "id": "glad-dad",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A thankful father",
+    "word1": "glad",
+    "word2": "dad"
+  },
+  {
+    "id": "good-wood",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An excellent plank",
+    "word1": "good",
+    "word2": "wood"
+  },
+  {
+    "id": "grim-hymn",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A dark chant",
+    "word1": "grim",
+    "word2": "hymn"
+  },
+  {
+    "id": "guy-fly",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A male airborne bug",
+    "word1": "guy",
+    "word2": "fly"
+  },
+  {
+    "id": "heart-chart",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A cardiologist’s graph",
+    "word1": "heart",
+    "word2": "chart"
+  },
+  {
+    "id": "hot-pot",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A boiling saucepan",
+    "word1": "hot",
+    "word2": "pot"
+  },
+  {
+    "id": "long-song",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A drawn out tune",
+    "word1": "long",
+    "word2": "song"
+  },
+  {
+    "id": "loud-crowd",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A noisy group of people",
+    "word1": "loud",
+    "word2": "crowd"
+  },
+  {
+    "id": "mean-queen",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A rude female monarch",
+    "word1": "mean",
+    "word2": "queen"
+  },
+  {
+    "id": "mole-hole",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A tunnel for a subterranean mammal",
+    "word1": "mole",
+    "word2": "hole"
+  },
+  {
+    "id": "neat-street",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A tidy road",
+    "word1": "neat",
+    "word2": "street"
+  },
+  {
+    "id": "pale-snail",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A blanched mollusk",
+    "word1": "pale",
+    "word2": "snail"
+  },
+  {
+    "id": "pink-drink",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A salmon colored refreshment",
+    "word1": "pink",
+    "word2": "drink"
+  },
+  {
+    "id": "quick-trick",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A fast stunt",
+    "word1": "quick",
+    "word2": "trick"
+  },
+  {
+    "id": "rough-bluff",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A tough cliff",
+    "word1": "rough",
+    "word2": "bluff"
+  },
+  {
+    "id": "round-mound",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A circular hill",
+    "word1": "round",
+    "word2": "mound"
+  },
+  {
+    "id": "rude-dude",
     "syllables": 1,
     "difficulty": "misdemeanor",
     "riddle": "An impolite guy",
@@ -248,7 +320,15 @@
     "word2": "dude"
   },
   {
-    "id": 42,
+    "id": "sad-dad",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An unhappy father",
+    "word1": "sad",
+    "word2": "dad"
+  },
+  {
+    "id": "sharp-harp",
     "syllables": 1,
     "difficulty": "misdemeanor",
     "riddle": "A pointed triangular string instrument",
@@ -256,39 +336,143 @@
     "word2": "harp"
   },
   {
-    "id": 1,
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A picture of a hot bread-making device",
-    "word1": "toaster",
-    "word2": "poster"
+    "id": "shy-guy",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A bashful man",
+    "word1": "shy",
+    "word2": "guy"
   },
   {
-    "id": 2,
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "An amusing hare",
-    "word1": "funny",
-    "word2": "bunny"
+    "id": "slow-crow",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A sluggish rook",
+    "word1": "slow",
+    "word2": "crow"
   },
   {
-    "id": 3,
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A sluggish flower",
-    "word1": "lazy",
-    "word2": "daisy"
+    "id": "sly-guy",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A clever dude",
+    "word1": "sly",
+    "word2": "guy"
   },
   {
-    "id": 5,
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A craven string instrument",
-    "word1": "yellow",
-    "word2": "cello"
+    "id": "small-crawl",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A tiny move forward",
+    "word1": "small",
+    "word2": "crawl"
   },
   {
-    "id": 8,
+    "id": "sore-boar",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A hurt pig",
+    "word1": "sore",
+    "word2": "boar"
+  },
+  {
+    "id": "stale-tale",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A too oft repeated story",
+    "word1": "stale",
+    "word2": "tale"
+  },
+  {
+    "id": "strange-range",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A weird span",
+    "word1": "strange",
+    "word2": "range"
+  },
+  {
+    "id": "sweet-beet",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A sugary root vegetable",
+    "word1": "sweet",
+    "word2": "beet"
+  },
+  {
+    "id": "tame-flame",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A calm blaze",
+    "word1": "tame",
+    "word2": "flame"
+  },
+  {
+    "id": "thin-pin",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A slender sewing device",
+    "word1": "thin",
+    "word2": "pin"
+  },
+  {
+    "id": "torn-corn",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Ripped maize",
+    "word1": "torn",
+    "word2": "corn"
+  },
+  {
+    "id": "true-clue",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "An honest hint",
+    "word1": "true",
+    "word2": "clue"
+  },
+  {
+    "id": "weird-beard",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Outlandish facial hair",
+    "word1": "weird",
+    "word2": "beard"
+  },
+  {
+    "id": "wet-net",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "Damp mesh",
+    "word1": "wet",
+    "word2": "net"
+  },
+  {
+    "id": "wet-pet",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A soggy doggy",
+    "word1": "wet",
+    "word2": "pet"
+  },
+  {
+    "id": "wild-child",
+    "syllables": 1,
+    "difficulty": "misdemeanor",
+    "riddle": "A feral kid",
+    "word1": "wild",
+    "word2": "child"
+  },
+  {
+    "id": "ancient-patient",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "An old-fashioned flying machine",
+    "word1": "ancient",
+    "word2": "patient"
+  },
+  {
+    "id": "bumble-stumble",
     "syllables": 2,
     "difficulty": "felony",
     "riddle": "A bee trip",
@@ -296,7 +480,63 @@
     "word2": "stumble"
   },
   {
-    "id": 10,
+    "id": "chilly-filly",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A famous pasta dish served cold",
+    "word1": "chilly",
+    "word2": "filly"
+  },
+  {
+    "id": "chilly-hilly",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A freezing ocean",
+    "word1": "chilly",
+    "word2": "hilly"
+  },
+  {
+    "id": "daring-bearing",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A brave explorer",
+    "word1": "daring",
+    "word2": "bearing"
+  },
+  {
+    "id": "dirty-thirty",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A muddy path through the woods",
+    "word1": "dirty",
+    "word2": "thirty"
+  },
+  {
+    "id": "dripping-tripping",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A leaking pipe",
+    "word1": "dripping",
+    "word2": "tripping"
+  },
+  {
+    "id": "freezy-breezy",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A chilly winter garment",
+    "word1": "freezy",
+    "word2": "breezy"
+  },
+  {
+    "id": "funny-bunny",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "An amusing hare",
+    "word1": "funny",
+    "word2": "bunny"
+  },
+  {
+    "id": "glitter-litter",
     "syllables": 2,
     "difficulty": "felony",
     "riddle": "Sparkly trash",
@@ -304,15 +544,7 @@
     "word2": "litter"
   },
   {
-    "id": 11,
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A silent yet violent protest",
-    "word1": "quiet",
-    "word2": "riot"
-  },
-  {
-    "id": 14,
+    "id": "hairy-fairy",
     "syllables": 2,
     "difficulty": "felony",
     "riddle": "A furry magical forest creature",
@@ -320,7 +552,31 @@
     "word2": "fairy"
   },
   {
-    "id": 15,
+    "id": "happy-snappy",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A joyful amphibian",
+    "word1": "happy",
+    "word2": "snappy"
+  },
+  {
+    "id": "itsy-bitsy",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A tiny monster",
+    "word1": "itsy",
+    "word2": "bitsy"
+  },
+  {
+    "id": "lazy-daisy",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A sluggish flower",
+    "word1": "lazy",
+    "word2": "daisy"
+  },
+  {
+    "id": "nervous-service",
     "syllables": 2,
     "difficulty": "felony",
     "riddle": "A timid act of kindness",
@@ -328,31 +584,47 @@
     "word2": "service"
   },
   {
-    "id": 19,
+    "id": "pinching-glistening",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A smelly little finger",
-    "word1": "stinky",
-    "word2": "pinky"
+    "riddle": "A stolen piece of jewellery",
+    "word1": "pinching",
+    "word2": "glistening"
   },
   {
-    "id": 24,
+    "id": "quiet-riot",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A very small winter hat",
-    "word1": "teeny",
-    "word2": "beanie"
+    "riddle": "A silent yet violent protest",
+    "word1": "quiet",
+    "word2": "riot"
   },
   {
-    "id": 26,
+    "id": "scary-mary",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A wet pet",
-    "word1": "soggy",
-    "word2": "doggy"
+    "riddle": "A frightened horse",
+    "word1": "scary",
+    "word2": "mary"
   },
   {
-    "id": 29,
+    "id": "shaky-flaky",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A nervous thief",
+    "word1": "shaky",
+    "word2": "flaky"
+  },
+  {
+    "id": "shatter-chatter",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A broken promise",
+    "word1": "shatter",
+    "word2": "chatter"
+  },
+  {
+    "id": "slender-tender",
     "syllables": 2,
     "difficulty": "felony",
     "riddle": "A pathetic cut of chicken",
@@ -360,19 +632,203 @@
     "word2": "tender"
   },
   {
-    "id": 31,
+    "id": "sneaky-cheeky",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A tattletale’s pants",
+    "riddle": "A clever disguise",
+    "word1": "sneaky",
+    "word2": "cheeky"
+  },
+  {
+    "id": "snitches-britches",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A tattletale's pants",
     "word1": "snitches",
     "word2": "britches"
   },
   {
-    "id": 13,
-    "syllables": 4,
+    "id": "soggy-doggy",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A wet pet",
+    "word1": "soggy",
+    "word2": "doggy"
+  },
+  {
+    "id": "stinky-pinky",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A smelly little finger",
+    "word1": "stinky",
+    "word2": "pinky"
+  },
+  {
+    "id": "teeny-beanie",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A very small winter hat",
+    "word1": "teeny",
+    "word2": "beanie"
+  },
+  {
+    "id": "toaster-poster",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A picture of a hot bread-making device",
+    "word1": "toaster",
+    "word2": "poster"
+  },
+  {
+    "id": "twirly-girly",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A dizzy dancer",
+    "word1": "twirly",
+    "word2": "girly"
+  },
+  {
+    "id": "wealthy-stealthy",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A wealthy insect",
+    "word1": "wealthy",
+    "word2": "stealthy"
+  },
+  {
+    "id": "yellow-cello",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A craven string instrument",
+    "word1": "yellow",
+    "word2": "cello"
+  },
+  {
+    "id": "creator-debater",
+    "syllables": 3,
     "difficulty": "most-wanted",
+    "riddle": "A person who argues with God",
+    "word1": "creator",
+    "word2": "debater"
+  },
+  {
+    "id": "detective-perspective",
+    "syllables": 3,
+    "difficulty": "most-wanted",
+    "riddle": "An lawman’s point of view",
+    "word1": "detective",
+    "word2": "perspective"
+  },
+  {
+    "id": "elegant-elephant",
+    "syllables": 3,
+    "difficulty": "most-wanted",
+    "riddle": "A beautiful mammoth",
+    "word1": "elegant",
+    "word2": "elephant"
+  },
+  {
+    "id": "reporter-supporter",
+    "syllables": 3,
+    "difficulty": "most-wanted",
+    "riddle": "Someone who backs the media",
+    "word1": "reporter",
+    "word2": "supporter"
+  },
+  {
+    "id": "translator-locator",
+    "syllables": 3,
+    "difficulty": "most-wanted",
+    "riddle": "A person who finds interpreters",
+    "word1": "translator",
+    "word2": "locator"
+  },
+  {
+    "id": "adorable-deplorable",
+    "syllables": 4,
+    "difficulty": "public-enemy",
     "riddle": "A loveable henchman",
     "word1": "adorable",
     "word2": "deplorable"
+  },
+  {
+    "id": "agrarian-barbarian",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A farming brute",
+    "word1": "agrarian",
+    "word2": "barbarian"
+  },
+  {
+    "id": "animator-subjugator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A cartoonist overlord",
+    "word1": "animator",
+    "word2": "subjugator"
+  },
+  {
+    "id": "barbarian-librarian",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A primitive book organizer",
+    "word1": "barbarian",
+    "word2": "librarian"
+  },
+  {
+    "id": "calculator-consolator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "An abacus comforter",
+    "word1": "calculator",
+    "word2": "consolator"
+  },
+  {
+    "id": "elevator-excavator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A dumbwaiter digger",
+    "word1": "elevator",
+    "word2": "excavator"
+  },
+  {
+    "id": "gladiator-perforator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A prizefighter puncturer",
+    "word1": "gladiator",
+    "word2": "perforator"
+  },
+  {
+    "id": "hibernator-circulator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A bear distributer",
+    "word1": "hibernator",
+    "word2": "circulator"
+  },
+  {
+    "id": "legislator-flagellator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A person who whips lawmakers",
+    "word1": "legislator",
+    "word2": "flagellator"
+  },
+  {
+    "id": "navigator-denigrator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "A helmsman belittler",
+    "word1": "navigator",
+    "word2": "denigrator"
+  },
+  {
+    "id": "terminator-detonator",
+    "syllables": 4,
+    "difficulty": "public-enemy",
+    "riddle": "An evil robot explosive device",
+    "word1": "terminator",
+    "word2": "detonator"
   }
 ]

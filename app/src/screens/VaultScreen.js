@@ -162,17 +162,17 @@ export default function VaultScreen({ route }) {
 
                 <View style={styles.modalDivider} />
 
-                {selectedLevel.locks.map((lock, i) => (
+                {(selectedRecord.locks ?? []).map((lock, i) => (
                   <View key={i} style={styles.modalLockRow}>
                     <Text style={styles.modalSectionLabel}>
-                      {selectedLevel.locks.length > 1 ? `LOCK ${i + 1} — ` : ''}
+                      {(selectedRecord.locks ?? []).length > 1 ? `LOCK ${i + 1} — ` : ''}
                       {DIFFICULTY_LABELS[lock.difficulty]}
                     </Text>
                     <Text style={styles.modalRiddle}>{lock.riddle}</Text>
                     <Text style={[styles.modalAnswer, { color: DIFFICULTY_COLORS[lock.difficulty] }]}>
                       {lock.answer[0].toUpperCase()} {lock.answer[1].toUpperCase()}
                     </Text>
-                    {i < selectedLevel.locks.length - 1 && (
+                    {i < (selectedRecord.locks ?? []).length - 1 && (
                       <View style={styles.modalDivider} />
                     )}
                   </View>
