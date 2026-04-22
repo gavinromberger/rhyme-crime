@@ -464,14 +464,6 @@
     "word2": "child"
   },
   {
-    "id": "ancient-patient",
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "An old-fashioned flying machine",
-    "word1": "ancient",
-    "word2": "patient"
-  },
-  {
     "id": "bumble-stumble",
     "syllables": 2,
     "difficulty": "felony",
@@ -480,52 +472,60 @@
     "word2": "stumble"
   },
   {
-    "id": "chilly-filly",
+    "id": "chunky-monkey",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A famous pasta dish served cold",
-    "word1": "chilly",
-    "word2": "filly"
+    "riddle": "A fat primate",
+    "word1": "chunky",
+    "word2": "monkey"
   },
   {
-    "id": "chilly-hilly",
+    "id": "clever-lever",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A freezing ocean",
-    "word1": "chilly",
-    "word2": "hilly"
+    "riddle": "A brilliant crowbar",
+    "word1": "clever",
+    "word2": "lever"
   },
   {
-    "id": "daring-bearing",
+    "id": "cranky-yankee",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A brave explorer",
-    "word1": "daring",
-    "word2": "bearing"
+    "riddle": "A grumpy united States citizen",
+    "word1": "cranky",
+    "word2": "yankee"
   },
   {
-    "id": "dirty-thirty",
+    "id": "crazy-daisy",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A muddy path through the woods",
+    "riddle": "An insane flower",
+    "word1": "crazy",
+    "word2": "daisy"
+  },
+  {
+    "id": "dirty-birdie",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A muddy pidgeon",
     "word1": "dirty",
-    "word2": "thirty"
+    "word2": "birdie"
   },
   {
-    "id": "dripping-tripping",
+    "id": "fickle-pickle",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A leaking pipe",
-    "word1": "dripping",
-    "word2": "tripping"
+    "riddle": "An unreliable cucumber",
+    "word1": "fickle",
+    "word2": "pickle"
   },
   {
-    "id": "freezy-breezy",
+    "id": "funky-monkey",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A chilly winter garment",
-    "word1": "freezy",
-    "word2": "breezy"
+    "riddle": "A smelly baboon",
+    "word1": "funky",
+    "word2": "monkey"
   },
   {
     "id": "funny-bunny",
@@ -534,6 +534,14 @@
     "riddle": "An amusing hare",
     "word1": "funny",
     "word2": "bunny"
+  },
+  {
+    "id": "gator-traitor",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A crocodile betrayer",
+    "word1": "gator",
+    "word2": "traitor"
   },
   {
     "id": "glitter-litter",
@@ -552,28 +560,28 @@
     "word2": "fairy"
   },
   {
-    "id": "happy-snappy",
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A joyful amphibian",
-    "word1": "happy",
-    "word2": "snappy"
-  },
-  {
-    "id": "itsy-bitsy",
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A tiny monster",
-    "word1": "itsy",
-    "word2": "bitsy"
-  },
-  {
     "id": "lazy-daisy",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A sluggish flower",
+    "riddle": "A slothful flower",
     "word1": "lazy",
     "word2": "daisy"
+  },
+  {
+    "id": "melon-felon",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A fruit convict",
+    "word1": "melon",
+    "word2": "felon"
+  },
+  {
+    "id": "narrow-sparrow",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A slender bird",
+    "word1": "narrow",
+    "word2": "sparrow"
   },
   {
     "id": "nervous-service",
@@ -584,12 +592,28 @@
     "word2": "service"
   },
   {
-    "id": "pinching-glistening",
+    "id": "phony-pony",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A stolen piece of jewellery",
-    "word1": "pinching",
-    "word2": "glistening"
+    "riddle": "A fake horse",
+    "word1": "phony",
+    "word2": "pony"
+  },
+  {
+    "id": "pretty-city",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A beautiful town",
+    "word1": "pretty",
+    "word2": "city"
+  },
+  {
+    "id": "prudent-student",
+    "syllables": 2,
+    "difficulty": "felony",
+    "riddle": "A learner with good judgement",
+    "word1": "prudent",
+    "word2": "student"
   },
   {
     "id": "quiet-riot",
@@ -600,28 +624,20 @@
     "word2": "riot"
   },
   {
-    "id": "scary-mary",
+    "id": "rotten-cotton",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A frightened horse",
-    "word1": "scary",
-    "word2": "mary"
+    "riddle": "Putrid clothing fiber",
+    "word1": "rotten",
+    "word2": "cotton"
   },
   {
-    "id": "shaky-flaky",
+    "id": "silly-lilly",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A nervous thief",
-    "word1": "shaky",
-    "word2": "flaky"
-  },
-  {
-    "id": "shatter-chatter",
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A broken promise",
-    "word1": "shatter",
-    "word2": "chatter"
+    "riddle": "A nonsensical flower",
+    "word1": "silly",
+    "word2": "lilly"
   },
   {
     "id": "slender-tender",
@@ -630,14 +646,6 @@
     "riddle": "A pathetic cut of chicken",
     "word1": "slender",
     "word2": "tender"
-  },
-  {
-    "id": "sneaky-cheeky",
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A clever disguise",
-    "word1": "sneaky",
-    "word2": "cheeky"
   },
   {
     "id": "snitches-britches",
@@ -680,20 +688,12 @@
     "word2": "poster"
   },
   {
-    "id": "twirly-girly",
+    "id": "witty-kitty",
     "syllables": 2,
     "difficulty": "felony",
-    "riddle": "A dizzy dancer",
-    "word1": "twirly",
-    "word2": "girly"
-  },
-  {
-    "id": "wealthy-stealthy",
-    "syllables": 2,
-    "difficulty": "felony",
-    "riddle": "A wealthy insect",
-    "word1": "wealthy",
-    "word2": "stealthy"
+    "riddle": "A clever cat",
+    "word1": "witty",
+    "word2": "kitty"
   },
   {
     "id": "yellow-cello",
